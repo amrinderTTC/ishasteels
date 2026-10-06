@@ -1,0 +1,57 @@
+
+
+@media print{
+    html,body{
+        background: #fff;
+        min-width: 100% !important
+    }
+    .article{
+        filter: none;
+    }
+    .no-print{
+        display: none !important;
+    }
+    .page-wrapper{
+        margin-left: 0px;
+    }
+    .page-wrapper .main-content{
+        padding-top: 1rem
+    }
+    .print-area .table{
+        margin-bottom: 0px;
+    }
+    .print-area>.table.table-bordered{
+        border: none
+    }
+    .table.table-bordered th, .table.table-bordered td{
+        border-color: #000 !important
+    }
+    .print-area>.table.table-bordered thead td{
+        border: none !important;
+        padding-bottom: 2rem
+    }
+    .print-area>.table.table-bordered tfoot td{
+        border: none !important;
+    }
+    .table-responsive{
+        overflow-x: hidden;
+    }
+    .table-large{
+        max-width: 100%;
+        min-width: 100%
+    }
+    .article{
+        padding: 0px;
+        border: none !important;
+        margin: 0px;
+    }
+    .table{
+        margin-bottom: 0px;
+    }
+    .report .orderrow li{
+        width: 212px;
+    }
+}
+@page {
+    size: 8.5in 11in, portrait;
+}
